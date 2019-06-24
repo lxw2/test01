@@ -1,8 +1,17 @@
 package 01
 public class world
 {
-  pubilc static void main (String [] argu)
+
+  pubilc static void main (String [] argu)//hello world
   {
     System.out.print ("hello world");
+  }
+  
+  public static swap (int a , int b)//provide a function to change two parameter；
+  {
+    int temp=0;
+    temp = a;
+    a=b;
+    b=temp;
   }
 }
