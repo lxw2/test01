@@ -1,0 +1,8 @@
+package 01
+public class world
+{
+  pubilc static void main (String [] argu)
+  {
+    System.out.print ("hello world");
+  }
+}
